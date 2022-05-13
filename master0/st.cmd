@@ -10,7 +10,7 @@ epicsEnvSet("SCRIPTEXEC" ,"$(SCRIPTEXEC="iocshLoad")")
 require ecmccfg 7.0.1
 
 # run module startup.cmd (only needed at ESS  PSI auto call at require)
-$(ECMCCFG_INIT)$(SCRIPTEXEC) ${ecmccfg_DIR}startup.cmd, "IOC=$(IOC),ECMC_VER=7.0.1"
+$(ECMCCFG_INIT)$(SCRIPTEXEC) ${ecmccfg_DIR}startup.cmd, "IOC=$(IOC),ECMC_VER=7.0.1,MASTER_ID=0"
 
 ##############################################################################
 ## Config hardware:
@@ -27,7 +27,7 @@ ${SCRIPTEXEC} ${ecmccfg_DIR}addSlave.cmd, "HW_DESC=EL2819"
 ${SCRIPTEXEC} ${ecmccfg_DIR}addSlave.cmd, "HW_DESC=EL2819"
 ${SCRIPTEXEC} ${ecmccfg_DIR}addSlave.cmd, "HW_DESC=EL2819"
 ${SCRIPTEXEC} ${ecmccfg_DIR}addSlave.cmd, "HW_DESC=EL2819"
-${SCRIPTEXEC} ${ecmccfg_DIR}addSlave.cmd, "HW_DESC=EL1114"
+${SCRIPTEXEC} ${ecmccfg_DIR}addSlave.cmd, "HW_DESC=EL2819"
 ${SCRIPTEXEC} ${ecmccfg_DIR}addSlave.cmd, "HW_DESC=EL1808"
 ${SCRIPTEXEC} ${ecmccfg_DIR}addSlave.cmd, "HW_DESC=EL1808"
 ${SCRIPTEXEC} ${ecmccfg_DIR}addSlave.cmd, "HW_DESC=EL1808"
