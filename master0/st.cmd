@@ -8,6 +8,7 @@ epicsEnvSet("ECMCCFG_INIT" ,"")  #Only run startup once (auto at PSI, need call 
 epicsEnvSet("SCRIPTEXEC" ,"$(SCRIPTEXEC="iocshLoad")")
 
 require ecmccfg 7.0.1
+require mcoreutils 1.2.2
 
 epicsEnvSet("ECMC_ASYN_PORT_MAX_PARAMS",3000)
 # run module startup.cmd (only needed at ESS  PSI auto call at require)
