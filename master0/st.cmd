@@ -3,7 +3,7 @@
 
 ##############################################################################
 ## Initiation:
-epicsEnvSet("IOC" ,"$(IOC="IOC_TEST")")
+epicsEnvSet("IOC" ,"$(IOC="MASTER0")")
 epicsEnvSet("ECMCCFG_INIT" ,"")  #Only run startup once (auto at PSI, need call at ESS), variable set to "#" in startup.cmd
 epicsEnvSet("SCRIPTEXEC" ,"$(SCRIPTEXEC="iocshLoad")")
 
