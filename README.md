@@ -28,3 +28,18 @@ Note: Tests are not listed in order of importance..
 * Running without mcoreutils gave a latency disturbance each minute on both ioc:s (simultaneous). This was not seen when running ecmc on differet cores (with mcore-utils).
 *
 
+## Buy time
+* Remove configs for the not used tanks (etherct hw).. Not all installed..
+
+## Preparations for test
+
+### Master 1: 
+* 132 slaves (no motion)
+* git clone git@gitlab.esss.lu.se:alfiorizzo/e3-ioc-dtl-cavm1.git
+* git clone https://gitlab.esss.lu.se/alfiorizzo/e3-ioc-dtl-cavm1.git
+
+### Master 2: Problematic ioc with motion
+* 60 slaves and 15 motion axes
+* git clone https://gitlab.esss.lu.se/alfiorizzo/e3-ioc-dtl-cavm2.git
+* git clone git@gitlab.esss.lu.se:alfiorizzo/e3-ioc-dtl-cavm2.git
+
