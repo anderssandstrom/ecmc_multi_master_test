@@ -12,9 +12,15 @@ Note: Tests are not listed in order of importance..
 * iperf on nic to see bandwith (once a broken nic have resulted in similar issues)
 * Run without CCCE (interactive mode)
 * Play with prios
+* Check cabling
+* Test new etherlab master (PSI version with patches)
 
-## Test on new system
+## Test on new system (Beckhoff C6025)
 * Test running both ethercat ioc:s on new controller
 * Run one ecmc IOC on each controller
-* Start one ioc at the time, the most complex first
+* Start one ioc at the time, the most complex first.
+
+## Observations from tests in B02 lab
+* Seems not good to start both ioc:s at the same time. Start the most complex first.
+* Running without mcoreutils gave a latency disturbance each minute on both ioc:s (simultaneous). This was not seen when running ecmc on differet cores (with mcore-utils).
 * 
