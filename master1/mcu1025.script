@@ -52,6 +52,33 @@ $(SCRIPTEXEC) ($(ecmccfg_DIR)configureAxis.cmd, CONFIG=./cfg/linear_1.ax)
 #epicsEnvSet("DEV",      "$(IOC)")
 #$(SCRIPTEXEC) ($(ecmccfg_DIR)configureAxis.cmd, CONFIG=./cfg/linear_2.ax)
 
+
+epicsEnvSet("ID",       "3")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "4")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "5")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "6")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "7")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "8")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "9")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "10")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "11")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "12")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "13")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "14")
+$(SCRIPTEXEC) ($(ecmccfg_DIR)configureVirtualAxis.cmd, CONFIG=./cfg/linear.vax, ID=${ID})
+epicsEnvSet("ID",       "15")
+
 ##############################################################################
 ############# Configure diagnostics:
 
