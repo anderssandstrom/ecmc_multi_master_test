@@ -11,7 +11,7 @@ require ecmccfg 7.0.1
 require mcoreutils 1.2.2
 
 # Add rule to run ecmc on core 1
-coreThreadRuleAdd ecmc * 1 ecmc_rt
+mcoreThreadRuleAdd ecmc * 1 ecmc_rt
 
 epicsEnvSet("ECMC_ASYN_PORT_MAX_PARAMS",3000)
 # run module startup.cmd (only needed at ESS  PSI auto call at require)

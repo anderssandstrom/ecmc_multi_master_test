@@ -11,7 +11,7 @@ require ecmccfg 7.0.1
 require mcoreutils 1.2.2
 
 # Add rule to run ecmc on core 2
-coreThreadRuleAdd ecmc * 2 ecmc_rt
+mcoreThreadRuleAdd ecmc * 2 ecmc_rt
 
 
 # Epics Motor record driver that will be used:
