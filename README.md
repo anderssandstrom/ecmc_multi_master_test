@@ -16,7 +16,8 @@ Note: Tests are not listed in order of importance..
 * Test new etherlab master (PSI version with patches)
 
 ## Test on new system (Beckhoff C6025)
-* Test running both ethercat ioc:s on new controller
+* Test running both ethercat ioc:s on new controller (without CCCE first)
+* Test both ioc:s with CCCE
 * Run one ecmc IOC on each controller
 * Start one ioc at the time, the most complex first.
 
