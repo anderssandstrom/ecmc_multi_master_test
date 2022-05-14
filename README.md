@@ -5,6 +5,8 @@ Test with two masters on same controller in order to trouble shoot latencny issu
 Note: Tests are not listed in order of importance..
 
 * Start one ioc at the time, the most complex first
+* Reduce rate of both IOC:s to 250Hz and run on same IOC
+* Add mcoreutils
 * Install graphics run in graphics.target and multi-user.target
 * only run one ecmc ioc and see latency
 * mcoreutils (add rules, like in this repo)
@@ -33,13 +35,22 @@ Note: Tests are not listed in order of importance..
 
 ## Preparations for test
 
+require mcoreutils 1.2.2
+
 ### Master 1: 
 * 132 slaves (no motion)
 * git clone https://gitlab.esss.lu.se/alfiorizzo/e3-ioc-dtl-cavm1.git
 * git clone git@gitlab.esss.lu.se:alfiorizzo/e3-ioc-dtl-cavm1.git
 
+#### Add rule to run ecmc on core 1
+mcoreThreadRuleAdd ecmc * * 1 ecmc_rt
+
+
 ### Master 2: Problematic ioc with motion
 * 60 slaves and 15 motion axes
 * git clone https://gitlab.esss.lu.se/alfiorizzo/e3-ioc-dtl-cavm2.git
 * git clone git@gitlab.esss.lu.se:alfiorizzo/e3-ioc-dtl-cavm2.git
+
+#### Add rule to run ecmc on core 2
+mcoreThreadRuleAdd ecmc * * 2 ecmc_rt
 
