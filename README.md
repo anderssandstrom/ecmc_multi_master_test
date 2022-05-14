@@ -32,7 +32,7 @@ Note: Tests are not listed in order of importance..
 *
 
 ## Buy time
-* Consider Remove configs for the not used tanks (etherct hw).. Not all installed.. In master 2, 18 slaves can be removed (EK1100,EK1122)
+* Consider Remove configs for the not used tanks (etherct hw).. Not all installed.. In master 1, 12 slaves and in master 2, 18 slaves can be removed (EK1100,EK1122)
 * 
 
 ## Preparations for test
