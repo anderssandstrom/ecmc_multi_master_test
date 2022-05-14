@@ -17,6 +17,7 @@ Note: Tests are not listed in order of importance..
 * Check cabling
 * Test new etherlab master (PSI version with patches)
 * Turn of DMA of harddrives: sudo hdparm -d0 /dev/sda
+* Slim down o system (remove system slaves EK1100,EK1122)
 
 ## Test on new system (Beckhoff C6025)
 * Test running both ethercat ioc:s on new controller (without CCCE first)
@@ -31,7 +32,8 @@ Note: Tests are not listed in order of importance..
 *
 
 ## Buy time
-* Consider Remove configs for the not used tanks (etherct hw).. Not all installed..
+* Consider Remove configs for the not used tanks (etherct hw).. Not all installed.. In master 2, 18 slaves can be removed (EK1100,EK1122)
+* 
 
 ## Preparations for test
 
