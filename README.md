@@ -3,7 +3,7 @@ Test with two masters on same controller in order to trouble shoot latencny issu
 
 ## Tests
 Note: Tests are not listed in order of importance..
-
+* Only run one IOC, check latency reduce to 250Hz
 * Start one ioc at the time, the most complex first
 * Reduce rate of both IOC:s to 250Hz and run on same IOC
 * Add mcoreutils
