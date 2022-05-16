@@ -25,7 +25,7 @@ If latency is OK in 1, 2:
 If latency not OK in test 11:
 
 12. Test Mcoreutils, put one ecmc ioc on core 1 and the other on core 2
-13. revisit test 3..8
+13. revisit test 3..10
 14. Run one ecmc ioc on each controller (one lenovo and one beckhoff)
 
 # Other things to consider or need testing
