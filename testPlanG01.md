@@ -1,6 +1,6 @@
 # Testplan G01
 
-## Tests Lenovo
+## Tests
 1. Run master 1 IOC only, check latency (250Hz)
 2. Run master 2 IOC only, check latency (250Hz)
 
