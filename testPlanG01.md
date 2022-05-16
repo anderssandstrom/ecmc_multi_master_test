@@ -27,7 +27,7 @@ If latency not OK in test 10:
 # Other things to consider or need testing
 1. New ether lab master !IMPORTANT!
 2. IRQ prios, epics thread porios
-3. Slim down o system (remove system slaves EK1100,EK1122)
+3. Slim down system (remove system slaves EK1100,EK1122 without any process data)
 4. Switch master index of the two ecmc ioc:s (low probablity of success)
 
 # Changes to IOC config based on current test results (mcag lab)
