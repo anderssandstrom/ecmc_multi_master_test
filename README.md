@@ -65,5 +65,9 @@ mcoreThreadRuleAdd ecmc * * 2 ecmc_rt
  1461 root     -51   0       0      0      0 S  0.7  0.0   0:09.11 irq/123-eno1  
  
  chrt -f -p ${NEWIRQPRIO} ${TID}
+ 
+ example:
+ 
+ sudo chrt  -f -p 80 1461
 
 
