@@ -60,3 +60,8 @@ mcoreThreadRuleAdd ecmc * * 1 ecmc_rt
 #### Add rule to run ecmc on core 2
 mcoreThreadRuleAdd ecmc * * 2 ecmc_rt
 
+
+#### IRQ on my test NUC
+ 1461 root     -51   0       0      0      0 S  0.7  0.0   0:09.11 irq/123-eno1                                                                                                                                                                               
+
+
