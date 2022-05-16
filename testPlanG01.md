@@ -22,7 +22,7 @@ If latency not OK in test 10:
 
 11. Test Mcoreutils, put one ecmc ioc on core 1 and the other on core 2
 12. revisit test 3..8
-13. Run one ecmc ioc on each controller
+13. Run one ecmc ioc on each controller (one lenovo and one beckhoff)
 
 # Other things to consider or need testing
 1. New ether lab master !IMPORTANT!
