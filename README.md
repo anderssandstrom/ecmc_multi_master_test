@@ -38,6 +38,7 @@ Note: Tests are not listed in order of importance..
 ## Preparations for test
 
 yum -y groups install "GNOME Desktop"
+
 systemctl set-default graphical.target
 
 require mcoreutils 1.2.2
