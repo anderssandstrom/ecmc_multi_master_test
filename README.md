@@ -69,5 +69,9 @@ mcoreThreadRuleAdd ecmc * * 2 ecmc_rt
  example:
  
  sudo chrt  -f -p 80 1461
+ 
+ ethercat domains
+ 
+ 
 
 
