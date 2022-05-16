@@ -29,7 +29,7 @@ If latency not OK in test 11:
 14. Run one ecmc ioc on each controller (one lenovo and one beckhoff)
 
 # Other things to consider or need testing
-1. New ether lab master !IMPORTANT!
+1. New etherlab master !IMPORTANT TEST!
 2. IRQ prios, epics thread porios
 3. Slim down system (remove system slaves EK1100,EK1122 without any process data)
 4. Switch master index of the two ecmc ioc:s (low probablity of success)
