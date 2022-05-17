@@ -11,7 +11,7 @@
 
 ## Observations
 1. Ethelab was showing warnings on master 2 (etherlab master 2, DTL master 1) even when the ecmc system was not running. Strange... Could there be some error in that system? Maybe in the last slaves that was disabled?
-2. In general the logged data looked very very good. Howvere one spike at 600microns was found (but that is OK for this setup). But maybe this soike could be related to teh time when the Sequencer IOC was started.  
+2. In general the logged data looked very very good. Howvere one spike at 600microns was found (but that is OK for this setup). But maybe this soike could be related to teh time when the sequencer IOC:s was started.  
 
 ## Next steps if this tests fails
 * Move one ecmc ioc to a separate controller. Then both ecmc ioc:s will run on dedicated controllers (then rate can most likely be increased).
