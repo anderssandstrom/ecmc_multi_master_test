@@ -17,3 +17,9 @@
 * Move one ecmc ioc to a separate controller. Then both ecmc ioc:s will run on dedicated controllers (then rate can most likely be increased).
 * Test new version of etherlab master (should make situation better)
 * Maybe not feasible but use a debian system instead (always better performance on debian, based on resulkts from a few tests)
+* iperf on nic to see bandwith (once a broken nic have resulted in similar issues)
+* Play with prios
+* Check cabling
+* Turn of DMA of harddrives: sudo hdparm -d0 /dev/sda
+* Slim down o system (remove system slaves EK1100,EK1122)
+* 
