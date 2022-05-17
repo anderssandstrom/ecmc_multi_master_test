@@ -11,7 +11,7 @@ require ecmccfg 7.0.1
 require mcoreutils 1.2.2
 
 # Add rule to run ecmc on core 1
-mcoreThreadRuleAdd ecmc * * 1 ecmc_rt
+mcoreThreadRuleAdd ecmc * * 3 ecmc_rt
 
 epicsEnvSet("ECMC_ASYN_PORT_MAX_PARAMS",3000)
 # run module startup.cmd (only needed at ESS  PSI auto call at require)
@@ -157,4 +157,36 @@ ecmcConfigOrDie "Cfg.EcSetDomainFailedCyclesLimit(100)"
 # go active
 $(SCRIPTEXEC) ($(ecmccfg_DIR)setAppMode.cmd)
 iocInit()
+
+dbpf MASTER0:Axis1.SPAM 1
+dbpf MASTER0:Axis2.SPAM 1
+dbpf MASTER0:Axis3.SPAM 1
+dbpf MASTER0:Axis4.SPAM 1
+dbpf MASTER0:Axis5.SPAM 1
+dbpf MASTER0:Axis6.SPAM 1
+dbpf MASTER0:Axis7.SPAM 1
+dbpf MASTER0:Axis8.SPAM 1
+dbpf MASTER0:Axis9.SPAM 1
+dbpf MASTER0:Axis10.SPAM 1
+dbpf MASTER0:Axis11.SPAM 1
+dbpf MASTER0:Axis12.SPAM 1
+dbpf MASTER0:Axis13.SPAM 1
+dbpf MASTER0:Axis14.SPAM 1
+dbpf MASTER0:Axis15.SPAM 1
+dbpf MASTER0:Axis16.SPAM 1
+dbpf MASTER0:Axis17.SPAM 1
+dbpf MASTER0:Axis18.SPAM 1
+dbpf MASTER0:Axis19.SPAM 1
+dbpf MASTER0:Axis20.SPAM 1
+dbpf MASTER0:Axis21.SPAM 1
+dbpf MASTER0:Axis22.SPAM 1
+dbpf MASTER0:Axis23.SPAM 1
+dbpf MASTER0:Axis24.SPAM 1
+dbpf MASTER0:Axis25.SPAM 1
+dbpf MASTER0:Axis26.SPAM 1
+dbpf MASTER0:Axis27.SPAM 1
+dbpf MASTER0:Axis28.SPAM 1
+dbpf MASTER0:Axis29.SPAM 1
+dbpf MASTER0:Axis30.SPAM 1
+
 
