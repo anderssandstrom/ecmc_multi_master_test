@@ -22,4 +22,4 @@
 * Check cabling
 * Turn of DMA of harddrives: sudo hdparm -d0 /dev/sda
 * Slim down o system (remove system slaves EK1100,EK1122)
-* 
+* boot options!!! Disable all non needed stuff
