@@ -1,4 +1,4 @@
-# Test DTl 220517
+# Test DTL 220517
 
 ## Log of tests
 1. Started with testing the DTL master 2 system with motion. Started with 250Hz and it worked.
