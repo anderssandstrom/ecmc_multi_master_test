@@ -33,6 +33,7 @@ If latency not OK in test 11:
 2. IRQ prios, epics thread porios
 3. Slim down system (remove system slaves EK1100,EK1122 without any process data)
 4. Switch master index of the two ecmc ioc:s (low probablity of success)
+5. Native driver!
 
 # Changes to IOC config based on current test results (mcag lab)
 1. Reduce rate of both IOC to 100..250Hz
